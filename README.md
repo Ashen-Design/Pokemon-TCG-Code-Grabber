@@ -7,9 +7,11 @@ When buying a Pokémon TCG Booster pack, you also receive a code to redeem a pac
 
 Many YouTubers show the code after opening the pack; this program was designed to show that you can capture the code on the back and have it automatically pasted to a clipboard to redeem online within seconds of seeing it on screen.
 
+## Requirements
+This requires the Tesseract OCR executable installed. - https://github.com/tesseract-ocr/tesseract
 ## Usage
 1. Load an image/pause a video showing the code on the screen.
-2. Use a screenshot program to take a screenshot and store it on your clipboard. (`Win+Shift+S` for Windows, `Command-Control-Shift-4` for Mac, Linux varies)
+2. Use a screenshot program to take a screenshot and store it on your clipboard. (`Win+Shift+S` for Windows)
 3. Run `pokemon.py` with the image in your clipboard.
 4. It will upscale the image for better recognition.
 5. The application will automatically detect the text and copy it to your clipboard.
